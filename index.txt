@@ -4,7 +4,7 @@ vCard - Personal Portfolio
 
 alt = Nicole Harris
 Nicole Harris
-Web developer
+Technical Writer
 
 Show Contacts
 
