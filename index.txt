@@ -38,7 +38,7 @@ My goal is to help users understand how to use technology to its fullest potenti
 
 ## service
 
-What i'm doing
+What I do
 
 alt = design icon
 Web design
