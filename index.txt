@@ -32,7 +32,7 @@ Contact
 
 About me
 
-Welcome to my website! I'm Nicole Harris, a technical writer with a passion for making complex information easy to understand. I specialize in creating clear, concise documentation for software products, business process flows, and everything in between.
+Hi, I'm Nicole Harris! I'm a technical writer with a passion for making complex information easy to understand. I specialize in creating clear, concise documentation for software products, business process flows, and everything in between.
 
 My goal is to help users understand how to use technology to its fullest potential, and to help companies communicate their products and services effectively. On this website, you can learn more about my work, read my writing samples, and get in touch with me to discuss your technical writing needs. Let's work together to create documentation that truly speaks to your audience.
 
