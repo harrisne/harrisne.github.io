@@ -1,86 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicole Harris - Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicole Harris - Portfolio</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar-nicole.png"
+              alt="Nicole Harris"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Nicole Harris">Nicole Harris</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar-nicole.png" alt="Nicole Harris" width="80">
-        </figure>
+            <p class="title">Technical Writer</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Nicole Harris">Nicole Harris</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Technical Writer</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:nharris324@gmail.com" class="contact-link"
+                  >nharris324@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:nharris324@gmail.com" class="contact-link">nharris324@gmail.com</a>
-            </div>
-
-          </li>
-
-          <!-- CELL PHONE INFO -->
-          <!-- <li class="contact-item">
+            <!-- CELL PHONE INFO -->
+            <!-- <li class="contact-item">
 
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
@@ -93,8 +96,8 @@
             </div>
 
           </li> -->
-          <!-- BIRTHDAY INFO -->
-          <!-- <li class="contact-item">
+            <!-- BIRTHDAY INFO -->
+            <!-- <li class="contact-item">
 
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
@@ -108,358 +111,374 @@
 
           </li> -->
 
-          <li class="contact-item">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
+                <address>Atlanta, Georgia, USA</address>
+              </div>
+            </li>
 
-              <address>Atlanta, Georgia, USA</address>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Education</p>
 
-          <li class="contact-item">
+                <address>Georgia Institude of Technology</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="icon-box">
-              <ion-icon name="school-outline"></ion-icon>
-            </div>
+          <div class="separator"></div>
 
-            <div class="contact-info">
-              <p class="contact-title">Education</p>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/harrisne" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-              <address>Georgia Institude of Technology</address>
-            </div>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/nicole3harris/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/harrisne" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/nicole3harris/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              Hi, I'm Nicole Harris! I'm a technical writer with a passion for
+              making complex information easy to understand. I specialize in
+              creating clear, concise documentation for software products,
+              hardware systems, and everything in between.
+            </p>
 
-        <section class="about-text">
-          <p>
-            Hi, I'm Nicole Harris! I'm a technical writer with a passion for making complex information
-            easy to understand. I specialize in creating clear, concise documentation for software products,
-            hardware systems, and everything in between.
-          </p>
+            <p>
+              My goal is to help users understand how to use technology to its
+              fullest potential, and to help companies communicate their
+              products and services effectively. On this website, you can learn
+              more about my work, read my writing samples, and get in touch with
+              me to discuss your technical writing needs. Let's work together to
+              create documentation that truly speaks to your audience.
+            </p>
+          </section>
 
-          <p>
-            My goal is to help users understand how to use technology to its fullest potential, and to help companies
-            communicate their products and services effectively. On this website, you can learn more about my work, read
-            my writing samples, and get in touch with me to discuss your technical writing needs. Let's work together to
-            create documentation that truly speaks to your audience.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What I do</h3>
 
-          <h3 class="h3 service-title">What I do</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software documentation</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    Straightforward yet comprehensive technical docs and wikis.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Video games icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Software documentation</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">API Documentation</h4>
 
-                <p class="service-item-text">
-                  Straightforward yet comprehensive technical docs and wikis.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Robust and searchable docs for API consumers and producers.
+                  </p>
+                </div>
+              </li>
 
-            </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
 
-            <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Internal UX & Process Flows
+                  </h4>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Video games icon" width="40">
-              </div>
+                  <p class="service-item-text">
+                    Increase time-to-market and employee productivty.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">API Documentation</h4>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-                <p class="service-item-text">
-                  Robust and searchable docs for API consumers and producers.
-                </p>
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Automation</h4>
 
-            </li>
+                  <p class="service-item-text">
+                    Automate reporting, ticketing, wiki maintence, and business
+                    process.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Internal UX & Process Flows</h4>
-
-                <p class="service-item-text">
-                  Increase time-to-market and employee productivty.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Automation</h4>
-
-                <p class="service-item-text">
-                  Automate reporting, ticketing, wiki maintence, and business process.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-
-        <!--
+          <!--
           - testimonials
         -->
 
-        <section class="testimonials">
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
 
-          <ul class="testimonials-list has-scrollbar">
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Win Gowland
+                  </h4>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Win Gowland</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Nicole was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client.
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Nicole was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Eva Flemming
+                  </h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title> Eva Flemming</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Nicole consistently delivers well-crafted and informative content. 
-                    Her ability to effectively communicate complex technical concepts 
-                    makes her an invaluable asset to any project or team.
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Nicole consistently delivers well-crafted and informative
+                      content. Her ability to effectively communicate complex
+                      technical concepts makes her an invaluable asset to any
+                      project or team.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </section>
 
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-          <section class="testimonials-modal">
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 November, 2023</time>
-
-              <div data-modal-text>
-                <p>
-                  Nicole was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. 
-                </p>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
               </div>
 
-            </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Win gowland</h4>
 
-          </section>
+                <time datetime="2021-06-14">14 November, 2023</time>
 
-        </div>
+                <div data-modal-text>
+                  <p>
+                    Nicole was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
 
-
-        <!--
+          <!--
           - clients
         -->
 
-<!-- 
+          <!-- 
         <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
@@ -506,584 +525,591 @@
 
         </section> 
 
-        -->
+        --></article>
 
-      </article>
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <!-- Experience -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <!-- Experience -->
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Technical Writer, Warner Bros. Discovery
+                </h4>
 
-          <ol class="timeline-list">
+                <span> Apr 2023 — Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Audit and update existing documentation impacted by multiple
+                  integration paths while supporting interoperability between
+                  all WBD Sports products with cross-product DRI buy-in.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Technical Writer, Warner Bros. Discovery</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Technical Writer, Silicon Valley Bank
+                </h4>
 
-              <span> Apr 2023 — Present</span>
+                <span>Sep 2021 — Mar 2023</span>
 
-              <p class="timeline-text">
-                Audit and update existing documentation impacted by multiple 
-                integration paths while supporting interoperability between all 
-                WBD Sports products with cross-product DRI buy-in. 
-              </p>
+                <p class="timeline-text">
+                  Implemented API production pipeline improvements increasing
+                  API time-to-market by 17%. Orchestrated, organized, and wrote
+                  monthly newsletters sent to top stakeholders.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            </li>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Technical Writer, Silicon Valley Bank</h4>
-
-              <span>Sep 2022 — Mar 2023</span>
-
-              <p class="timeline-text">
-                Implemented API production pipeline improvements increasing API 
-                time-to-market by 17%. Orchestrated, 
-                organized, and wrote monthly newsletters sent to top stakeholders. 
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Georgia Institute of Technology
+                </h4>
 
-          <ol class="timeline-list">
+                <span>B.S. in Computer Science | 2017 — 2021</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Cum Laude | Honors Program | Zell Miller Scholarship | Video
+                  games Design Club
+                </p>
+              </li>
+            </ol>
+          </section>
 
-              <h4 class="h4 timeline-item-title">Georgia Institute of Technology</h4>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-              <span>B.S. in Computer Science | 2017 — 2021</span>
-
-              <p class="timeline-text">
-              Cum Laude | Honors Program | Zell Miller Scholarship | Video games Design Club 
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Certifications</h3>
             </div>
 
-            <h3 class="h3">Certifications</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Certified Professional Technical Communicator (CPTC) -
+                  Foundation
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2022</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Measures general knowledge of the techincal writing field and
+                  the ability to demonstrate comprehension of concepts,
+                  processes, and best practices.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-              <h4 class="h4 timeline-item-title"> Certified Professional Technical Communicator (CPTC) - Foundation</h4>
+          <!-- Skills -->
 
-              <p class="timeline-text">
-                Measures general knowledge of the techincal writing field 
-                and the ability to demonstrate comprehension of 
-                concepts, processes, and best practices.
-                exceptur.
-              </p>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
 
-            </li>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Documentation</h5>
+                  <data value="80">80%</data>
+                </div>
 
-          </ol>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
 
-        </section>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic design</h5>
+                  <data value="70">70%</data>
+                </div>
 
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
 
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                  <data value="90">90%</data>
+                </div>
 
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
 
-        <!-- Skills -->
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="50">50%</data>
+                </div>
 
-        <section class="skill">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Documentation</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Documentation</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Video games</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Documentation</button>
+              <li class="filter-item">
+                <button data-filter-btn>Documentation</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Video games</button>
+              <li class="filter-item">
+                <button data-filter-btn>Video games</button>
               </li>
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <ul class="project-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+                <li class="select-item">
+                  <button data-select-item>Documentation</button>
+                </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>Video games</button>
+                </li>
+              </ul>
+            </div>
 
-                <h3 class="project-title">Brawlhalla</h3>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="video  games"
+              >
+                <a href="https://www.gtvgdev.com/games-archive/lunacia">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Applications</p>
+                    <img
+                      src="./assets/images/my-projects/lunacia.png"
+                      alt="lunacia"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">Lunacia</h3>
 
-            <li class="project-item  active" data-filter-item data-category="documentation">
-              <a href="#">
+                  <p class="project-category">Video games</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="documentation"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1nCPIQW6iJYMV9tEt9194BOrgTo9XZjKQ/view?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
+                    <img
+                      src="./assets/images/my-projects/warriorPainters.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                  <h3 class="project-title">Warrior Painters</h3>
 
-                <p class="project-category">Documentation</p>
+                  <p class="project-category">Documentation</p>
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="documentation"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1ZOJ02vnAuHNTRBA8ygRzOhOXFNW9nbVt/view?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active" data-filter-item data-category="documentation">
-              <a href="#">
+                    <img
+                      src="./assets/images/my-projects/selfEfficacy.png"
+                      alt="selfEfficacy"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Self-Efficacy Research Paper</h3>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
+                  <p class="project-category">Documentation</p>
+                </a>
+              </li>
 
-                <h3 class="project-title">MetaSpark</h3>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="video games"
+              >
+                <a href="https://www.youtube.com/watch?v=gEkBf9JD9cI">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Documentation</p>
+                    <img
+                      src="./assets/images/my-projects/raccoonGame.png"
+                      alt="raccoonGame"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">Racoon Game</h3>
 
-            <li class="project-item  active" data-filter-item data-category="video games">
-              <a href="#">
+                  <p class="project-category">Video games</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://github.com/harrisne/FitConnect">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
+                    <img
+                      src="./assets/images/my-projects/fitConnect.png"
+                      alt="fit connect"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title">Summary</h3>
+                  <h3 class="project-title">FitConnect</h3>
 
-                <p class="project-category">Video games</p>
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://createyourdreams.org/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/harrisne/FitConnect">
+                    <img
+                      src="./assets/images/my-projects/createYourDreams.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Create Your Dreams</h3>
 
-                  <img src="./assets/images/project-8.jpg" alt="fit connect" loading="lazy">
-                </figure>
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                <h3 class="project-title">FitConnect</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="video games">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Video games</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://www.heliablog.com/beyond-google-discovering-the-best-knowledge-databases"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/my-blog-posts/google.png"
+                      alt="Beyond Google - alternative knowledge bases"
+                      loading="lazy"
+                    />
+                  </figure>
 
-        <section class="blog-posts">
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Knowledge</p>
 
-          <ul class="blog-posts-list">
+                      <span class="dot"></span>
 
-            <li class="blog-post-item">
-              <a href="https://www.heliablog.com/beyond-google-discovering-the-best-knowledge-databases">
+                      <time datetime="2022-02-23">Aug 8, 2023</time>
+                    </div>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Beyond Google - alternative knowledge bases" loading="lazy">
-                </figure>
+                    <h3 class="h3 blog-item-title">
+                      Beyond Google: Discovering the Best Knowledge Bases
+                    </h3>
 
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Knowledge</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Aug 8, 2023</time>
+                    <p class="blog-text">
+                      Has anyone else noticed Google kind of sucks for finding
+                      reputable information nowadays?
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">Beyond Google: Discovering the Best Knowledge Bases</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://www.heliablog.com/the-limitations-of-notion-when-other-apps-do-it-better"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/my-blog-posts/notion.png"
+                      alt="The limitations of Notion"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Has anyone else noticed Google kind of sucks for finding reputable information nowadays?
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Apps</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">Mar 7, 2023</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://www.heliablog.com/the-limitations-of-notion-when-other-apps-do-it-better">
+                    <h3 class="h3 blog-item-title">
+                      The Limitations of Notion: When Other Apps Do It Better
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="The limitations of Notion" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Apps</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Mar 7, 2023</time>
+                    <p class="blog-text">
+                      Use Notion in your personal life? Here's when and when not
+                      to use it.
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">The Limitations of Notion: When Other Apps Do It Better</h3>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/my-blog-posts/daythemes.png"
+                      alt="The art of day themes"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    Use Notion in your personal life? Here's when and when not to use it.
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Productivity</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">Nov 27, 2023</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <h3 class="h3 blog-item-title">The Art of Day Themes</h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="The art of day themes" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Productivity</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Nov 27, 2023</time>
+                    <p class="blog-text">
+                      Staying focused and inspired as a part-time creative
+                    </p>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 blog-item-title">The Art of Day Themes</h3>
+              <li class="blog-post-item">
+                <a
+                  href="https://www.heliablog.com/rig-your-own-3d-vtuber-with-perfect-sync-in-30-minutes"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/my-blog-posts/vtuber.png"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <p class="blog-text">
-                    How to stay focused and inspired as a part-time creative
-                  </p>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Apps</p>
 
-                </div>
+                      <span class="dot"></span>
 
-              </a>
-            </li>
+                      <time datetime="2022-02-23">Oct 14, 2022</time>
+                    </div>
 
-            <li class="blog-post-item">
-              <a href="https://www.heliablog.com/rig-your-own-3d-vtuber-with-perfect-sync-in-30-minutes">
+                    <h3 class="h3 blog-item-title">
+                      How to Rig your own 3D Vtuber with Perfect Sync
+                    </h3>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Apps</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Oct 14, 2022</time>
+                    <p class="blog-text">
+                      Thinking about streaming as a vtuber? Here's how to make
+                      your own high quality tracking.
+                    </p>
                   </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                  <h3 class="h3 blog-item-title">How to Rig your own 3D Vtuber with Perfect Sync</h3>
-
-                  <p class="blog-text">
-                    Thinking about streaming as a vtuber? Here's how to make your own high quality tracking. 
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212270.96498243994!2d-84.58493994261453!3d33.76754340592065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C%20GA!5e0!3m2!1sen!2sus!4v1682708499597!5m2!1sen!2sus"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212270.96498243994!2d-84.58493994261453!3d33.76754340592065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C%20GA!5e0!3m2!1sen!2sus!4v1682708499597!5m2!1sen!2sus"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-        <section class="contact-form">
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
 
-          <h3 class="h3 form-title">Contact Form</h3>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
 
-          <form action="#" class="form" data-form>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
